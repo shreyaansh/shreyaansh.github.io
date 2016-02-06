@@ -6,6 +6,6 @@ h1 {
     font-size: 80px; font-style: normal; font-family: 'Montserrat', sans-serif;
 }
 
-.main {
+main {
     background-color: white; border-color: 3px black; bottom: auto;
 }
