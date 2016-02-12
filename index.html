@@ -23,7 +23,6 @@
                 var app=angular.module("MyApp", []);
                 
                 app.controller("MainController", function($scope) {
-                    $scope.title = "It works!";
                     $scope.links = [
                         {name: 'Home', url: 'http://www.google.com'},
                         {name: 'Projects', url: 'http://www.google.com'},
@@ -50,7 +49,6 @@
             <br/>
             <br/>
             <div class="main">
-                {{title}}
                 <center><h1><a href="http://www.shreyaansh.xyz"> Shreyaansh Bassi</a></h1> </center>
             </div>
             <div class="links" ng-repeat="link in links"><a ng-href="{{link.url}}">
