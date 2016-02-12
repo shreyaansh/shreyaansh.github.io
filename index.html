@@ -6,6 +6,7 @@
         <meta http-equiv='X-UA-Compatible' content='IE=edge'>
         <link rel="stylesheet" type="text/css" href="main.css">
         <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
         <link rel='stylesheet' href='/css/pygments.css'>
             <script src="http://www.google.com/jsapi"></script>
              <script src = "https://ajax.googleapis.com/ajax/libs/angularjs/1.3.3/angular.min.js"></script>
@@ -34,26 +35,18 @@
     
     <body>
         <div class = "whole" ng-controller="MainController">
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
+            <div class="before-main"></div>
+            Catch me if you can!
+            <marquee scrollamount=500>
+                
             <div class="main">
                 <center><h1><a href="http://www.shreyaansh.xyz"> Shreyaansh Bassi</a></h1> </center>
             </div>
+            </marquee>
             <div class="links" ng-repeat="link in links"><a ng-href="{{link.url}}">
                 <div class="link1"><font size=4><center>{{link.name}}</center></font></div></a>
             </div>
+            
         </div>
     </body>
 </html>
