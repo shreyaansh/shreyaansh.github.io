@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="MyApp">
     <head>
         <title>Shreyaansh Bassi</title>
         <meta charset='utf-8'>
@@ -8,6 +8,7 @@
         <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
         <link rel='stylesheet' href='/css/pygments.css'>
             <script src="http://www.google.com/jsapi"></script>
+             <script src = "https://ajax.googleapis.com/ajax/libs/angularjs/1.3.3/angular.min.js"></script>
             <script>
              google.load("jquery", "1");
              google.load("jqueryui", "1");
@@ -18,15 +19,37 @@
              $('.main, .links').hide().fadeIn(3500); 
             });
             </script>
+            <script>
+                var app=angular.module("MyApp", []);
+                
+                app.controller("MainController", function($scope) {
+                    $scope.title = "It works!";
+                });
+            </script>
     </head>
     
     <body>
-        <div class = "whole">
+        <div class = "whole" ng-controller="MainController">
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
             <div class="main">
+                {{title}}
                 <center><h1> Shreyaansh Bassi</h1> </center>
             </div>
             <div class="links">
-                <div class="link1"><font size=12><center>Home</center></font></div> <div class="link2"><font size=12><center>Projects</center></font></div> <div class="link3"><font size=12><center>Resume</center></font></div>
+                <div class="link1"><font size=4><center>Home</center></font></div> <div class="link2"><font size=4><center>Projects</center></font></div> <div class="link3"><font size=4><center>Resume</center></font></div>
             </div>
         </div>
     </body>
