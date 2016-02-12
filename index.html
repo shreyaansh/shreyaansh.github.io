@@ -24,6 +24,11 @@
                 
                 app.controller("MainController", function($scope) {
                     $scope.title = "It works!";
+                    $scope.links = [
+                        {name: 'Home', url: 'http://www.google.com'},
+                        {name: 'Projects', url: 'http://www.google.com'},
+                        {name: 'Resume', url: 'http://www.google.com'}
+                    ]
                 });
             </script>
     </head>
@@ -46,10 +51,10 @@
             <br/>
             <div class="main">
                 {{title}}
-                <center><h1> Shreyaansh Bassi</h1> </center>
+                <center><h1><a href="http://www.shreyaansh.xyz"> Shreyaansh Bassi</a></h1> </center>
             </div>
-            <div class="links">
-                <div class="link1"><font size=4><center>Home</center></font></div> <div class="link2"><font size=4><center>Projects</center></font></div> <div class="link3"><font size=4><center>Resume</center></font></div>
+            <div class="links" ng-repeat="link in links"><a ng-href="{{link.url}}">
+                <div class="link1"><font size=4><center>{{link.name}}</center></font></div></a>
             </div>
         </div>
     </body>

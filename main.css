@@ -2,6 +2,22 @@ body {
     background-color: ghostwhite; font-family: 'Montserrat'
 }
 
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: gray;
+}
+
 h1 {
     font-size: 40px; font-style: normal; font-family: 'Montserrat', sans-serif;
 }
