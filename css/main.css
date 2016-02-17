@@ -45,17 +45,17 @@ h1 {
 }
 
 .links {
-    border: 0px solid;
+    
 }
 
 .link1 {
-    border: 1px solid; width: 33%; float: left;
+    width: 33%; float: left;
 }
 
 .link2 {
-    border: 1px solid; width: 33%; float:left;
+    width: 33%; float:left;
 }
 
 .link3 {
-    border: 1px solid; width: 33%; float: left;
+    width: 33%; float: left;
 }
