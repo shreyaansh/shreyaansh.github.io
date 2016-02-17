@@ -40,16 +40,27 @@ h1 {
 .before-main {
 }
 
-.main {
+.main { 
     width: 100%;
     position: fixed;
     top: 35%;
     margin-top: -150px;
-    margin-left: -32px;
+    margin-left: -30px;
     padding-left: 20px;
     margin-right: 20px;
-}
+    -webkit-animation: fadein 3.5s; -moz-animation: fadein 3.5s; -ms-animation: fadein 3.5s; -o-animation: fadein 3.5s; animation: fadein 3.5s; }
 
+
+@keyframes fadein { from { opacity: 0; }
+  to { opacity: 1; } }
+@-moz-keyframes fadein { from { opacity: 0; }
+  to { opacity: 1; } }
+@-webkit-keyframes fadein { from { opacity: 0; }
+  to { opacity: 1; } }
+@-ms-keyframes fadein { from { opacity: 0; }
+  to { opacity: 1; } }
+@-o-keyframes fadein { from { opacity: 0; }
+  to { opacity: 1; } }
 
 .links {
 }
