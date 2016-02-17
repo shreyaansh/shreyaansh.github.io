@@ -45,8 +45,9 @@ h1 {
     position: fixed;
     top: 35%;
     margin-top: -150px;
-    padding-left: 10px;
-    margin-right: 10px;
+    margin-left: -32px;
+    padding-left: 20px;
+    margin-right: 20px;
 }
 
 
