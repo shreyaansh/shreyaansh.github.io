@@ -5,23 +5,23 @@ body {
 
 a {
     text-decoration: none;
-    -webkit-transition: color 1.5s;
-    -moz-transition:    color 1.5s;
-    -ms-transition:     color 1.5s;
-    -o-transition:      color 1.5s;
-    transition:         color 1.5s;
+    -webkit-transition: color 1.500s;
+    -moz-transition:    color 1.500s;
+    -ms-transition:     color 1.500s;
+    -o-transition:      color 1.500s;
+    transition:         color 1.500s;
 }
 
 a:link {
-    color: whitesmoke;
+    color: lightslategray;
 }
 
 a:visited {
-    color: whitesmoke;
+    color: lightslategray;
 }
 
 a:hover {
-    color: lightslategray;
+    color: darkslategray;
     -webkit-transition: color 0.75s;
     -moz-transition:    color 0.75s;
     -ms-transition:     color 0.75s;
@@ -30,7 +30,7 @@ a:hover {
 }
 
 h1 {
-    font-size: 60px; font-style: normal; font-family: 'Montserrat'; color: whitesmoke;
+    font-size: 55px; font-style: normal; font-family: 'Montserrat'; color: whitesmoke;
 }
 
 .whole {
