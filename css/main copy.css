@@ -1,6 +1,6 @@
 body {
-    background-image:url('http://supernovathemes.com/wp-content/themes/supernonvathemes/images/bg/b54.png');
-    font-family: 'Montserrat';
+    background-image:url('http://supernovathemes.com/wp-content/themes/supernonvathemes/images/bg/b50.png');
+    font-family: 'Montserrat'; color: whitesmoke;
 }
 
 a {
@@ -13,11 +13,11 @@ a {
 }
 
 a:link {
-    color: black;
+    color: whitesmoke;
 }
 
 a:visited {
-    color: black;
+    color: whitesmoke;
 }
 
 a:hover {
