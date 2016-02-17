@@ -4,10 +4,12 @@
         <title>Shreyaansh Bassi</title>
         <meta charset='utf-8'>
         <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
         <link rel="stylesheet" type="text/css" href="css/main.css">
         <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+        <link href='https://www.google.com/fonts#QuickUsePlace:quickUse/Family:Noto+Serif:400,700'>
         <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-        <link rel='stylesheet' href='/css/pygments.css'>
             <script src="http://www.google.com/jsapi"></script>
              <script src = "https://ajax.googleapis.com/ajax/libs/angularjs/1.3.3/angular.min.js"></script>
             <script>
@@ -17,7 +19,7 @@
             <script>
             $(document).ready(function()
             {
-             $('.main, .links').hide().fadeIn(3500); 
+             $('.main').hide().fadeIn(3500); 
             });
             </script>
             <script>
@@ -48,9 +50,12 @@
             <div class="before-main"></div>
             <div class="main">
                 <center><h1><a href="https://shreyaansh.xyz">Shreyaansh Bassi</a></h1> </center>
-            </div>
-            <div class="links" ng-repeat="link in links"><a ng-href="{{link.url}}">
-                <div class="link1"><font size=4><center>{{link.name}}</center></font></div></a>
+                <div class="links" ng-repeat="link in links"><a ng-href="{{link.url}}">
+                    <div class="link1"><font size=4><center><font size = 16px>        {{link.name}}</font></center></font></div></a>
+                </div>
+                <div class="personal">
+                    I'm a student at <a href="http://www.purdue.edu"> Purdue University </a> studying <a href="https://en.wikipedia.org/wiki/Computer_science">Computer Science</a>.
+                </div>
             </div>
         </div>
     </body>

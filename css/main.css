@@ -1,5 +1,6 @@
 body {
-    background-color: ghostwhite; font-family: 'Montserrat'
+    background-color: ghostwhite;
+    font-family: 'Montserrat'
 }
 
 a {
@@ -29,7 +30,7 @@ a:hover {
 }
 
 h1 {
-    font-size: 50px; font-style: normal; font-family: 'Open Sans', sans-serif;
+    font-size: 60px; font-style: normal; font-family: 'Montserrat';
 }
 
 .whole {
@@ -37,15 +38,19 @@ h1 {
 }
 
 .before-main {
-    height: 344px;
 }
 
 .main {
-    background-color: ghostwhite; border: 0px solid;
+    
+    width: 100%;
+    position: fixed;
+    top: 40%;
+    margin-top: -150px;
 }
 
+
 .links {
-    
+    font-size: 20px;
 }
 
 .link1 {
@@ -58,4 +63,8 @@ h1 {
 
 .link3 {
     width: 33%; float: left;
+}
+
+.personal {
+    padding-left: 50px; padding-top: 100px;
 }
