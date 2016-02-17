@@ -35,7 +35,11 @@ h1 {
 
 .whole {
     border: 0px solid;
+    overflow:scroll;
+    @-webkit-overflow-scrolling:touch;
 }
+
+@-webkit-overflow-scrolling:touch;
 
 .before-main {
 }
@@ -80,4 +84,10 @@ h1 {
 
 .personal {
     padding-left: 50px; padding-top: 10px; padding-right: 50px;
+}
+
+#footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
