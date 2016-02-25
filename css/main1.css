@@ -1,0 +1,70 @@
+@import url(http://fonts.googleapis.com/css?family=Ubuntu:400,500);
+
+*{
+	padding:0;
+	margin:0;
+}
+
+body{
+	font-family: "Ubuntu", sans-serif;
+    color: ghostwhite;
+	font-size: 100%;
+	background:black;
+}
+
+p{
+	line-height: 2em;
+	margin:0 0 20px;
+	text-align: center;
+}
+
+.wrap{
+	width: 60%;
+    position: absolute;
+    top: 35%;
+    left: 25%;
+    right: 25%;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 5px solid;
+    border-color: ghostwhite;
+    color: ghostwhite;
+    background-color: black;
+    font-size: 32px;
+}
+
+.links{
+	margin:20px 0;
+	font-size: 0.75em;
+	text-align: center;
+}
+
+.typed-cursor {
+    display: none;
+}
+
+a {
+    text-decoration: none;
+    -webkit-transition: color 1.500s;
+    -moz-transition:    color 1.500s;
+    -ms-transition:     color 1.500s;
+    -o-transition:      color 1.500s;
+    transition:         color 1.500s;
+}
+
+a:link {
+    color: lightslategray;
+}
+
+a:visited {
+    color: lightslategray;
+}
+
+a:hover {
+    color: darkslategray;
+    -webkit-transition: color 0.75s;
+    -moz-transition:    color 0.75s;
+    -ms-transition:     color 0.75s;
+    -o-transition:      color 0.75s;
+    transition:         color 0.75s;
+}
