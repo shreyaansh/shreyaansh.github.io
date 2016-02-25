@@ -93,3 +93,15 @@ h1 {
     background-color: whitesmoke;
     padding: 2px;
 }
+
+.title {
+    border: 1px solid;
+}
+
+.content {
+    border: 2px solid; border-color: aqua;
+}
+
+.heading {
+    font-size: 30px;
+}
