@@ -10,6 +10,7 @@ body{
     color: ghostwhite;
 	font-size: 100%;
 	background:black;
+    overflow-y: hidden;
 }
 
 p{
