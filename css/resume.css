@@ -1,15 +1,15 @@
 body {
-    background-color: black;
-    font-family: 'Montserrat'; color: whitesmoke;
+    background-color: whitesmoke;
+    font-family: 'Montserrat';
 }
 
 a {
     text-decoration: none;
-    -webkit-transition: color 1.500s;
-    -moz-transition:    color 1.500s;
-    -ms-transition:     color 1.500s;
-    -o-transition:      color 1.500s;
-    transition:         color 1.500s;
+    -webkit-transition: color 1.5s;
+    -moz-transition:    color 1.5s;
+    -ms-transition:     color 1.5s;
+    -o-transition:      color 1.5s;
+    transition:         color 1.5s;
 }
 
 a:link {
@@ -36,21 +36,23 @@ h1 {
 .whole {
     border: 0px solid;
     overflow: auto;
+    @-webkit-overflow-scrolling:touch;
 }
+
+@-webkit-overflow-scrolling:touch;
 
 .before-main {
 }
 
 .main { 
     width: 100%;
-    position: fixed;
+    position: absolute;
     top: 35%;
     margin-top: -150px;
     margin-left: -30px;
     padding-left: 20px;
     margin-right: 20px;
-    -webkit-animation: fadein 3.5s; -moz-animation: fadein 3.5s; -ms-animation: fadein 3.5s; -o-animation: fadein 3.5s; animation: fadein 3.5s;
-}
+    -webkit-animation: fadein 3.5s; -moz-animation: fadein 3.5s; -ms-animation: fadein 3.5s; -o-animation: fadein 3.5s; animation: fadein 3.5s; }
 
 
 @keyframes fadein { from { opacity: 0; }
@@ -63,6 +65,7 @@ h1 {
   to { opacity: 1; } }
 @-o-keyframes fadein { from { opacity: 0; }
   to { opacity: 1; } }
+
 
 .links {
 }
@@ -81,4 +84,12 @@ h1 {
 
 .personal {
     padding-left: 50px; padding-top: 10px; padding-right: 50px;
+}
+
+#footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: whitesmoke;
+    padding: 2px;
 }
