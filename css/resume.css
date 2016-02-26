@@ -112,3 +112,7 @@ h1 {
     border-top: 1px solid;
     border-bottom: 1px solid;
 }
+
+.headingContent {
+    font-size: 18px;
+}
