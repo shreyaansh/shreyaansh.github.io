@@ -13,15 +13,15 @@ a {
 }
 
 a:link {
-    color: black;
+    color: indianred;
 }
 
 a:visited {
-    color: black;
+    color: indianred;
 }
 
 a:hover {
-    color: darkslategray;
+    color: darkred;
     -webkit-transition: color 0.75s;
     -moz-transition:    color 0.75s;
     -ms-transition:     color 0.75s;
