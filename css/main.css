@@ -1,6 +1,10 @@
+@import url(https://fonts.googleapis.com/css?family=Fjord+One);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+
 body {
     background-color: whitesmoke;
-    font-family: 'Montserrat';
+	font-family: 'Raleway', serif;
 }
 
 a {
@@ -30,7 +34,10 @@ a:hover {
 }
 
 h1 {
-    font-size: 55px; font-style: normal; font-family: 'Montserrat'; color: whitesmoke;
+    font-size: 55px;
+	font-style: normal;
+	font-family: 'Raleway', serif;/*'Montserrat';*/
+	color: whitesmoke;
 }
 
 .whole {
