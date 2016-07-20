@@ -4,7 +4,7 @@
 
 body {
     background-color: whitesmoke;
-	font-family: 'Raleway', serif;
+	font-family: 'Fjord One', serif;
 }
 
 a {
@@ -36,7 +36,7 @@ a:hover {
 h1 {
     font-size: 55px;
 	font-style: normal;
-	font-family: 'Raleway', serif;/*'Montserrat';*/
+	font-family: 'Fjord One', serif;/*'Montserrat';*/
 	color: whitesmoke;
 }
 
